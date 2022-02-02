@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "biobeyo",
+  "version": "${version}",
+
+  "name": "BiomesBeyond",
+  "description": "-",
+  "authors": [
+    "Head dev, spriter, nerd, and general javahead:",
+    "VoxelDragon6",
+    "Additional devs:",
+    "-",
+    "Coremod devs:",
+    "Glitchfeind (TerraBlender API)",
+    "Olivia (Vampirelib)",
+    ""
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "CC0-1.0",
+  "icon": "",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.voxeldev.biomes.beyond.BioBeyond"
+    ],
+    "terrablender": [
+      "net.voxeldev.biomes.beyond.BioBeyond"
+    ]
+  },
+  "mixins": [
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.18.x",
+    "java": ">=17",
+    "terrablender": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
