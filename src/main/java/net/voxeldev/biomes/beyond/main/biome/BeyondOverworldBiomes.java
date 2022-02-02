@@ -62,14 +62,15 @@ public class BeyondOverworldBiomes {
 
         GenerationSettings.Builder builder = new GenerationSettings.Builder();
         globalOverworldGeneration(builder);
-        DefaultBiomeFeatures.addTaigaGrass(builder);
-        DefaultBiomeFeatures.addBirchTrees(builder);
-        DefaultBiomeFeatures.addDefaultVegetation(builder);
-        DefaultBiomeFeatures.addTaigaTrees(builder);
         DefaultBiomeFeatures.addDefaultOres(builder);
         DefaultBiomeFeatures.addDefaultDisks(builder);
+        DefaultBiomeFeatures.addTaigaTrees(builder);
+        DefaultBiomeFeatures.addDefaultVegetation(builder);
+        DefaultBiomeFeatures.addTaigaGrass(builder);
+        DefaultBiomeFeatures.addBirchTrees(builder);
         return biome(Biome.Precipitation.RAIN, Biome.Category.FOREST, 0.6F, 0.6F, spawnBuilder, builder, NORMAL);
     }
+
     public static Biome woodlands()
     {
         SpawnSettings.Builder spawnBuilder = new SpawnSettings.Builder();
