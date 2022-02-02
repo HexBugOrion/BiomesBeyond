@@ -12,6 +12,12 @@ This project is licensed under the GNU LPGLv3 with an additional stipulation lis
 
 ---
 
-<p align="center"><img src="https://cdn.discordapp.com/attachments/603001855919783939/938505787016351795/NFOF_DARK.png"></p>
+<p align="center"><img src="https://cdn.discordapp.com/attachments/603001855919783939/938505787016351795/NFOF_DARK.png"</p>
 
 No Forge Only Fabric (NFOF) disallows **ANY** attempt to port this projects to the Forge moddding platform, no ifs, ands, or buts.
+
+## Discord
+
+---
+
+Not yet, please stand by!
