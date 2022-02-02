@@ -1,9 +1,17 @@
-# Fabric Example Mod
+# Biomes Beyond
 
-## Setup
-
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
+---
 
 ## License
 
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+---
+
+This project is licensed under the GNU LPGLv3 with an additional stipulation listed below:
+
+## N.F.O.F (No Forge Only Fabric!)
+
+---
+
+<p align="center"><img src="https://cdn.discordapp.com/attachments/603001855919783939/938505787016351795/NFOF_DARK.png"></p>
+
+No Forge Only Fabric (NFOF) disallows **ANY** attempt to port this projects to the Forge moddding platform, no ifs, ands, or buts.
