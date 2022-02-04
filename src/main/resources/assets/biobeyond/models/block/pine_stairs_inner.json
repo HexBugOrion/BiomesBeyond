@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "biobeyond:wood_sets/pine/planks",
+    "top": "biobeyond:wood_sets/pine/planks",
+    "side": "biobeyond:wood_sets/pine/planks"
+  }
+}

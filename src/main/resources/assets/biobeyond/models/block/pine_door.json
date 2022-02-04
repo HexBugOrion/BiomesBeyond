@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "biobeyond:wood_sets/pine/door_item"
+  }
+}

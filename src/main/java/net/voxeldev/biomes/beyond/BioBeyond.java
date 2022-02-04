@@ -4,6 +4,8 @@ import net.fabricmc.api.ModInitializer;
 import net.minecraft.util.Identifier;
 import net.voxeldev.biomes.beyond.main.biome.BeyondBiomeProvider;
 import net.voxeldev.biomes.beyond.main.biome.BeyondBiomeRegistry;
+import net.voxeldev.biomes.beyond.main.registry.BlockMassReg;
+import net.voxeldev.biomes.beyond.main.registry.BlockMiscReg;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import terrablender.api.BiomeProviders;
@@ -17,8 +19,9 @@ public class BioBeyond implements ModInitializer, TerraBlenderApi {
 
 	@Override
 	public void onInitialize() {
-
 		LOGGER.info("Loading BiomesBeyond...");
+		BlockMassReg.register();
+		BlockMiscReg.register();
 		BeyondBiomeRegistry.registerBiomes();
 		LOGGER.info("Loaded BiomesBeyond!");
 	}

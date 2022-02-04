@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column_horizontal",
+  "textures": {
+    "end": "biobeyond:wood_sets/pine/stripped_log_top",
+    "side": "biobeyond:wood_sets/pine/stripped_log"
+  }
+}

@@ -30,6 +30,9 @@
     ],
     "terrablender": [
       "net.voxeldev.biomes.beyond.BioBeyond"
+    ],
+    "fabric-datagen": [
+      "net.voxeldev.biomes.beyond.core.datagen.BioData"
     ]
   },
   "mixins": [

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "biobeyond:wood_sets/pine/sapling"
+  }
+}

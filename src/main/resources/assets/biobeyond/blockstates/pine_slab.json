@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "biobeyond:block/pine_slab"
+    },
+    "type=double": {
+      "model": "biobeyond:block/pine_planks"
+    },
+    "type=top": {
+      "model": "biobeyond:block/pine_slab_top"
+    }
+  }
+}

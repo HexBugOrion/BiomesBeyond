@@ -11,7 +11,9 @@ import net.voxeldev.biomes.beyond.BioBeyond;
 public class BeyondBiomeList {
 
     //Icy
+    //public static final RegistryKey<Biome> MARSHLANDS = register("frostbitten_forest");
     //Cold
+    public static final RegistryKey<Biome> FEN = register("fen");
     //Temperate
     public static final RegistryKey<Biome> BOREAL_FOREST = register("boreal_forest");
     //Warm

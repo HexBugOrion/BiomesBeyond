@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_top_rh",
+  "textures": {
+    "top": "biobeyond:wood_sets/pine/door_top",
+    "bottom": "biobeyond:wood_sets/pine/door_bottom"
+  }
+}

@@ -23,18 +23,28 @@ public class BeyondBiomeProvider extends BiomeProvider {
         Consumer<Pair<TBClimate.ParameterPoint, RegistryKey<Biome>>> mapper) {
 
         // Order: temp, humid, continent, erosion, weird, depth, offset (float), biomeName
-        this.addBiome(mapper, MultiNoiseUtil.ParameterRange.of(-0.55F),
-            MultiNoiseUtil.ParameterRange.of(0.5F), MultiNoiseUtil.ParameterRange.of(0.7F),
-            MultiNoiseUtil.ParameterRange.of(0.55F), MultiNoiseUtil.ParameterRange.of(-1.0F),
-            MultiNoiseUtil.ParameterRange.of(1.2F), 0.0F, BeyondBiomeList.BOREAL_FOREST);
-        this.addBiome(mapper, MultiNoiseUtil.ParameterRange.of(0.35F),
-            MultiNoiseUtil.ParameterRange.of(0.1F), MultiNoiseUtil.ParameterRange.of(0.7F),
-            MultiNoiseUtil.ParameterRange.of(-0.25F), MultiNoiseUtil.ParameterRange.of(-1.0F),
-            MultiNoiseUtil.ParameterRange.of(1.0F), 0.0F, BeyondBiomeList.WOODLANDS);
-        this.addBiome(mapper, MultiNoiseUtil.ParameterRange.of(0.5F),
-            MultiNoiseUtil.ParameterRange.of(0.2F), MultiNoiseUtil.ParameterRange.of(0.6F),
-            MultiNoiseUtil.ParameterRange.of(-0.27F), MultiNoiseUtil.ParameterRange.of(-1.0F),
-            MultiNoiseUtil.ParameterRange.of(0.9F), 0.0F, BeyondBiomeList.MARSHLANDS);
+        this.addBiome(mapper, MultiNoiseUtil.ParameterRange.of(-0.55F)/*temp*/,
+            MultiNoiseUtil.ParameterRange.of(0.5F)/*humid*/, MultiNoiseUtil.ParameterRange.of(0.7F)/*continent*/,
+            MultiNoiseUtil.ParameterRange.of(0.55F)/*erosion*/, MultiNoiseUtil.ParameterRange.of(-1.0F)/*weird*/,
+            MultiNoiseUtil.ParameterRange.of(1.2F)/*depth*/, 0.1F/*offset*/, BeyondBiomeList.BOREAL_FOREST);
+        this.addBiome(mapper, MultiNoiseUtil.ParameterRange.of(0.35F)/*temp*/,
+            MultiNoiseUtil.ParameterRange.of(0.2F)/*humid*/, MultiNoiseUtil.ParameterRange.of(0.7F)/*continent*/,
+            MultiNoiseUtil.ParameterRange.of(-0.25F)/*erosion*/, MultiNoiseUtil.ParameterRange.of(-1.0F)/*weird*/,
+            MultiNoiseUtil.ParameterRange.of(1.0F)/*depth*/, 0.2F/*offset*/, BeyondBiomeList.WOODLANDS);
+        this.addBiome(mapper, MultiNoiseUtil.ParameterRange.of(0.5F)/*temp*/,
+            MultiNoiseUtil.ParameterRange.of(0.8F)/*humid*/, MultiNoiseUtil.ParameterRange.of(0.2F)/*continent*/,
+            MultiNoiseUtil.ParameterRange.of(0.2F)/*erosion*/, MultiNoiseUtil.ParameterRange.of(-1.0F)/*weird*/,
+            MultiNoiseUtil.ParameterRange.of(0.1F)/*depth*/, 0.1F/*offset*/, BeyondBiomeList.MARSHLANDS);
+        this.addBiome(mapper, MultiNoiseUtil.ParameterRange.of(-0.85F)/*temp*/,
+            MultiNoiseUtil.ParameterRange.of(0.8F)/*humid*/, MultiNoiseUtil.ParameterRange.of(0.2F)/*continent*/,
+            MultiNoiseUtil.ParameterRange.of(0.2F)/*erosion*/, MultiNoiseUtil.ParameterRange.of(-1.0F)/*weird*/,
+            MultiNoiseUtil.ParameterRange.of(0.1F)/*depth*/, 0.1F/*offset*/, BeyondBiomeList.FEN);
+
+      //this.addBiome(mapper, MultiNoiseUtil.ParameterRange.of(-0.55F)/*temp*/,
+      //    MultiNoiseUtil.ParameterRange.of(0.5F)/*humid*/, MultiNoiseUtil.ParameterRange.of(0.7F)/*continent*/,
+      //    MultiNoiseUtil.ParameterRange.of(0.55F)/*erosion*/, MultiNoiseUtil.ParameterRange.of(-1.0F)/*weird*/,
+      //    MultiNoiseUtil.ParameterRange.of(1.2F)/*depth*/, 0.0F/*offset*/, BeyondBiomeList.PLACEHOLDER);
+
 
     }
 

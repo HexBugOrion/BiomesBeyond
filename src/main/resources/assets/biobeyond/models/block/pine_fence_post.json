@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/fence_post",
+  "textures": {
+    "texture": "biobeyond:wood_sets/pine/planks"
+  }
+}

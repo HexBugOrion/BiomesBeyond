@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "biobeyond:block/pine_wood",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "biobeyond:block/pine_wood"
+    },
+    "axis=z": {
+      "model": "biobeyond:block/pine_wood",
+      "x": 90
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "biobeyond:wood_sets/pine/log",
+    "side": "biobeyond:wood_sets/pine/log"
+  }
+}
