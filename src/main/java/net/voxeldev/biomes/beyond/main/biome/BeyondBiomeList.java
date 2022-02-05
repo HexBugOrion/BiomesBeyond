@@ -21,7 +21,10 @@ public class BeyondBiomeList {
     public static final RegistryKey<Biome> MARSHLANDS = register("marshlands");
     //Hot
     //Very Hot (nether)
+    public static final RegistryKey<Biome> TORRID_TANGLE = register("torrid_tangle");
     //Alien (End)
+    //test
+    public static final RegistryKey<Biome> DUMMY1 = register("dummy1");
 
     private static RegistryKey<Biome> register(String name) {
 

@@ -62,7 +62,7 @@ dependencies {
 	//Other dependencies
 
 	modImplementation "com.github.glitchfiend:TerraBlender-fabric:${minecraft_version}-${terrablender_version}"
-	modImplementation ("io.github.vampirestudios:VampireLib-Fabric:4.5.3+build.1-1.18.1") {
+	modImplementation ("io.github.vampirestudios:VampireLib-Fabric:4.7.0+build.1-1.18.1") {
 		exclude group: "net.fabricmc.fabric-api"
 		exclude group: "io.github.cottonmc"
 	}

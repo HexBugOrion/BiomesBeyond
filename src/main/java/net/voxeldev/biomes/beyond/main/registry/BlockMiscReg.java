@@ -9,6 +9,7 @@ import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.voxeldev.biomes.beyond.BioBeyond;
+import net.voxeldev.biomes.beyond.main.registry.extensions.NyliumBlockEX;
 import net.voxeldev.biomes.beyond.main.registry.extensions.blocks.PlantBlockEX;
 
 public class BlockMiscReg {
@@ -22,6 +23,8 @@ public class BlockMiscReg {
         BlockSoundGroup.GRAVEL).strength(0.6f,0.6f));
     public static final PlantBlockEX TESTGRASS1 = new PlantBlockEX(AbstractBlock.Settings.of(Material.SOIL).sounds(BlockSoundGroup.GRASS).strength(0.6f,0.6f));
 
+    //turf
+    public static final NyliumBlockEX TORRID_NYLIUM = new NyliumBlockEX(AbstractBlock.Settings.of(Material.STONE).sounds(BlockSoundGroup.NYLIUM).strength(0.4f,1));
     public static void register() {
         Registry.register(Registry.BLOCK, new Identifier(BioBeyond.MOD_ID, "bog_iron"), BOG_IRON);
         Registry.register(Registry.ITEM, new Identifier(BioBeyond.MOD_ID, "bog_iron"), new BlockItem(BOG_IRON, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS)));
@@ -31,7 +34,8 @@ public class BlockMiscReg {
         Registry.register(Registry.ITEM, new Identifier(BioBeyond.MOD_ID, "testblog"), new BlockItem(TESTLOG1, new Item.Settings()));
         Registry.register(Registry.BLOCK, new Identifier(BioBeyond.MOD_ID, "testgrass"), TESTGRASS1);
         Registry.register(Registry.ITEM, new Identifier(BioBeyond.MOD_ID, "testgrass"), new BlockItem(TESTGRASS1, new Item.Settings()));
-
+        Registry.register(Registry.BLOCK, new Identifier(BioBeyond.MOD_ID, "torrid_nylium"), TORRID_NYLIUM);
+        Registry.register(Registry.ITEM, new Identifier(BioBeyond.MOD_ID, "torrid_nylium"), new BlockItem(TORRID_NYLIUM, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS)));
         //Registry.register(Registry.BLOCK, new Identifier(BioBeyond.MOD_ID, ""), );
         //Registry.register(Registry.ITEM, new Identifier(BioBeyond.MOD_ID, ""), new BlockItem( , new Item.Settings()));
 

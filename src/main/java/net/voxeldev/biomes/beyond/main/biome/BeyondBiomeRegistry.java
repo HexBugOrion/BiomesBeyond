@@ -12,6 +12,8 @@ public class BeyondBiomeRegistry {
         register(BeyondBiomeList.WOODLANDS, BeyondOverworldBiomes.woodlands());
         register(BeyondBiomeList.MARSHLANDS, BeyondOverworldBiomes.marshlands());
         register(BeyondBiomeList.FEN, BeyondOverworldBiomes.fen());
+        register(BeyondBiomeList.TORRID_TANGLE, BeyondNetherBiomes.torridTangle());
+        register(BeyondBiomeList.DUMMY1, BeyondOverworldBiomes.dummy1());
     }
 
     private static Biome register(RegistryKey<Biome> key, Biome biome)

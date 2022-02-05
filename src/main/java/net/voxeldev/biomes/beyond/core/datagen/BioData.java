@@ -32,6 +32,7 @@ public class BioData implements DataGeneratorEntrypoint {
         @Override
         public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
             generateWoodTypeAssets(blockStateModelGenerator, BlockMassReg.pine);
+            generateWoodTypeAssets(blockStateModelGenerator, BlockMassReg.spruceBrown);
         }
 
         @Override
@@ -52,6 +53,7 @@ public class BioData implements DataGeneratorEntrypoint {
         @Override
         protected void generateTags() {
             generateWoodTypeTags(BlockMassReg.pine);
+            generateWoodTypeTags(BlockMassReg.spruceBrown);
         }
 
         private void generateWoodTypeTags(WoodRegistry woodRegistry) {
@@ -67,6 +69,7 @@ public class BioData implements DataGeneratorEntrypoint {
         @Override
         protected void generateBlockLootTables() {
             generateWoodTypeDrops(BlockMassReg.pine);
+            generateWoodTypeDrops(BlockMassReg.spruceBrown);
         }
 
         private void generateWoodTypeDrops(WoodRegistry woodRegistry) {

@@ -26,6 +26,7 @@ public class BioBeyond implements ModInitializer, TerraBlenderApi {
 		LOGGER.info("Loaded BiomesBeyond!");
 	}
 
+
 	@Override
 	public void onTerraBlenderInitialized() {
 		BiomeProviders.register(new BeyondBiomeProvider(new Identifier(MOD_ID, "biome_provider"), 2));

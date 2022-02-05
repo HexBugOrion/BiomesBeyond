@@ -125,6 +125,7 @@ public class BeyondOverworldBiomes {
         BeyondBiomeFeatures.addMarshGrasses(builder);
         return biomeEX(Biome.Precipitation.RAIN, Biome.Category.SWAMP, 0.9F, 0.7F,4553487, 4553487, 4740864, 2765568, spawnBuilder, builder, NORMAL);
     }
+
     public static Biome fen() {
         SpawnSettings.Builder spawnBuilder = new SpawnSettings.Builder();
         spawnBuilder.spawn(SpawnGroup.CREATURE, new SpawnSettings.SpawnEntry(EntityType.COW, 5, 2, 4));
@@ -144,6 +145,19 @@ public class BeyondOverworldBiomes {
         DefaultBiomeFeatures.addSwampVegetation(builder);
         BeyondBiomeFeatures.addMarshGrasses(builder);
         BeyondBiomeFeatures.addBogIron(builder);
-        return biomeEX(Biome.Precipitation.RAIN, Biome.Category.SWAMP, -0.1F, 0.8F,9137724, 9137724, 9651749, 3740676, spawnBuilder, builder, NORMAL);
+        return biomeEX(Biome.Precipitation.RAIN, Biome.Category.SWAMP, 0.3F, 0.8F,9137724, 9137724, 9651749, 3740676, spawnBuilder, builder, NORMAL);
+    }
+    public static Biome dummy1() {
+        SpawnSettings.Builder spawnBuilder = new SpawnSettings.Builder();
+        spawnBuilder.spawn(SpawnGroup.CREATURE, new SpawnSettings.SpawnEntry(EntityType.COW, 5, 1, 3));
+        spawnBuilder.spawn(SpawnGroup.CREATURE, new SpawnSettings.SpawnEntry(EntityType.PIG, 5, 1, 3));
+        spawnBuilder.spawn(SpawnGroup.CREATURE, new SpawnSettings.SpawnEntry(EntityType.WOLF, 5, 1, 3));
+        DefaultBiomeFeatures.addBatsAndMonsters(spawnBuilder);
+        GenerationSettings.Builder builder = new GenerationSettings.Builder();
+        //global
+        //pain in the grass
+        //ores/mineables
+        //vegetal
+        return biome(Biome.Precipitation.RAIN, Biome.Category.TAIGA,0.5F, 0.6F, spawnBuilder, builder, NORMAL);
     }
 }
